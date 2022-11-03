@@ -43,7 +43,6 @@
     "express": "^4.17.1",
     "formik": "^2.1.4",
     "google-auth-library": "^5.10.1",
-    "node-sass": "^4.13.1",
     "nodemon": "^2.0.4",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
@@ -68,7 +67,6 @@
     "test": "react-scripts test --env=node",
     "eject": "react-scripts eject",
     "format": "prettier --write ./src",
-    
     "// Prod scripts": "",
     "start": "node prod-server.js",
     "build": "react-scripts build"
@@ -87,5 +85,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
   }
 }
